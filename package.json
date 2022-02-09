@@ -1,0 +1,23 @@
+{
+  "name": "ts-nuggets",
+  "version": "1.0.0",
+  "description": "All about typescript nuggets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngadiono/ts-nuggets.git"
+  },
+  "author": "ngadionocr@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngadiono/ts-nuggets/issues"
+  },
+  "homepage": "https://github.com/ngadiono/ts-nuggets#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
