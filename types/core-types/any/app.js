@@ -1,3 +1,4 @@
+"use strict";
 var Role;
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
@@ -8,7 +9,7 @@ var person = {
     name: 'Ronaldo',
     age: 35,
     hobbies: ['Sports', 'Cooking'],
-    role: Role.AUTHOR
+    role: Role.AUTHOR,
 };
 person.role = [0, 'admin'];
 var favoriteActivities;

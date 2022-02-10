@@ -1,8 +1,9 @@
+"use strict";
 var person = {
     name: 'Ronaldo',
     age: 35,
     hobbies: ['Sports', 'Cooking'],
-    role: [2, 'author']
+    role: [2, 'author'],
 };
 person.role = [0, 'admin'];
 var favoriteActivities;

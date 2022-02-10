@@ -1,7 +1,8 @@
+"use strict";
 var person = {
     name: 'Ronaldo',
     age: 35,
-    hobbies: ['Sports', 'Cooking']
+    hobbies: ['Sports', 'Cooking'],
 };
 var favoriteActivities;
 favoriteActivities = ['Sports'];
