@@ -1,3 +1,4 @@
+"use strict";
 var add = function (a, b) {
     if (b === void 0) { b = 1; }
     return a + b;
@@ -8,3 +9,4 @@ if (button) {
     button.addEventListener('click', function (event) { return console.log(event); });
 }
 printOutput(add(5));
+//# sourceMappingURL=app.js.map
