@@ -1,5 +1,6 @@
+"use strict";
 var userName = 'Ronaldo';
-// userName = 'Chris' // Error
+// userName = 'Chris' // error
 var age = 30;
 age = 25;
 function add(a, b) {
@@ -7,4 +8,5 @@ function add(a, b) {
     result = a + b;
     return result;
 }
-console.log(result);
+console.log(result); // error
+//# sourceMappingURL=app.js.map
