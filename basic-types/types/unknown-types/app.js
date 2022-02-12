@@ -6,3 +6,4 @@ userInput = 'Ronaldo';
 if (typeof userInput === 'string') {
     userName = userInput;
 }
+//# sourceMappingURL=app.js.map

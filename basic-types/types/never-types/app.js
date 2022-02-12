@@ -10,3 +10,4 @@ function generateError(message, code) {
     throw { message: message, errorCode: code };
 }
 generateError('Internal server error', 500);
+//# sourceMappingURL=app.js.map

@@ -15,3 +15,4 @@ var combinedStringAges = combine('30', '20', 'as-number');
 console.log(combinedStringAges);
 var combinedNames = combine('Ron', 'Aldo', 'as-text');
 console.log(combinedNames);
+//# sourceMappingURL=app.js.map

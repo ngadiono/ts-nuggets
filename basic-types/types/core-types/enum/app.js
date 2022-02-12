@@ -22,3 +22,4 @@ for (var _i = 0, _a = person.hobbies; _i < _a.length; _i++) {
 if (person.role === Role.AUTHOR) {
     console.log('is author');
 }
+//# sourceMappingURL=app.js.map

@@ -6,3 +6,4 @@ function printResult(num) {
     console.log('Result: ' + num);
 }
 printResult(add(23, 22));
+//# sourceMappingURL=app.js.map

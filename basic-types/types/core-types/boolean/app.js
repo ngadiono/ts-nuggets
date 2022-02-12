@@ -12,3 +12,4 @@ var number2 = 2.8;
 var printResult = true;
 var result = add(number1, number2, printResult);
 console.log(result);
+//# sourceMappingURL=app.js.map

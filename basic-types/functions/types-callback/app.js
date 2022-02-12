@@ -16,3 +16,4 @@ console.log(combineValues(8, 8));
 addAndHandle(10, 20, function (result) {
     console.log(result);
 });
+//# sourceMappingURL=app.js.map

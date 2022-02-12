@@ -14,3 +14,4 @@ var printResult = true;
 var resultPhrase = 'Result is: ';
 var result = add(number1, number2, printResult, resultPhrase);
 console.log(result);
+//# sourceMappingURL=app.js.map
