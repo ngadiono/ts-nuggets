@@ -13,3 +13,9 @@ const copiedPerson = {
 };
 
 console.log(copiedPerson);
+
+const [hobby1, hobby2, ...remainingHobbies] = hobbies;
+console.log(hobbies, hobby1, hobby2);
+
+const { name, age } = person;
+console.log(name);

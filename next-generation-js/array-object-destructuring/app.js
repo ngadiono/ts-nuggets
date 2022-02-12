@@ -28,4 +28,8 @@ var person = {
 };
 var copiedPerson = __assign({}, person);
 console.log(copiedPerson);
+var hobby1 = hobbies[0], hobby2 = hobbies[1], remainingHobbies = hobbies.slice(2);
+console.log(hobbies, hobby1, hobby2);
+var name = person.name, age = person.age;
+console.log(name);
 //# sourceMappingURL=app.js.map
