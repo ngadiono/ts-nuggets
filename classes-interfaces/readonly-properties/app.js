@@ -11,6 +11,7 @@ var Department = /** @class */ (function () {
         // this.name = name;
     }
     Department.prototype.describe = function () {
+        // this.id = 'd2'; // Error
         console.log('Department: ' + this.name);
     };
     Department.prototype.addEmployee = function (employee) {
