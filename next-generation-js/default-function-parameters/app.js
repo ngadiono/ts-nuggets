@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var add = function (a, b) {
     if (b === void 0) { b = 1; }
     return a + b;

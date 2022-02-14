@@ -7,3 +7,5 @@ function printResult(num: number): void {
 }
 
 printResult(add(23, 22));
+
+export {};

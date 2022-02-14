@@ -13,3 +13,5 @@ const copiedPerson = {
 };
 
 console.log(copiedPerson);
+
+export {};

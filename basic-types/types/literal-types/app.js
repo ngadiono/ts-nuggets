@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function combine(n1, n2, resultConversation) {
     var result;
     if ((typeof n1 === 'number' && typeof n2 === 'number') || resultConversation === 'as-number') {

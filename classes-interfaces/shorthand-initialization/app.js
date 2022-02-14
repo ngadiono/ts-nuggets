@@ -1,9 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Department = /** @class */ (function () {
-    function Department(n) {
+    function Department(id, name) {
+        this.id = id;
+        this.name = name;
+        // private id: string;
+        // public name: string;
         this.employees = [];
-        this.name = n;
+        this.id = id;
+        this.name = name;
     }
     Department.prototype.describe = function () {
         console.log('Department: ' + this.name);
@@ -13,7 +18,7 @@ var Department = /** @class */ (function () {
     };
     return Department;
 }());
-var accounting = new Department('Accounting');
+var accounting = new Department('d1', 'Accounting');
 accounting.describe();
 accounting.addEmployee('Rooney');
 accounting.name = 'Halland';

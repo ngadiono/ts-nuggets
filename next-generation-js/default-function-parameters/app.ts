@@ -9,3 +9,5 @@ if (button) {
 }
 
 printOutput(add(5));
+
+export {};

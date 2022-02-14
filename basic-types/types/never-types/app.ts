@@ -13,3 +13,5 @@ function generateError(message: string, code: number): never {
 }
 
 generateError('Internal server error', 500);
+
+export {};

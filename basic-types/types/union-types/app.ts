@@ -13,3 +13,5 @@ console.log(combineAges);
 
 const combineNames = combine('Ron', 'Aldo');
 console.log(combineNames);
+
+export {};
