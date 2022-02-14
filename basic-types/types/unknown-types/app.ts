@@ -7,5 +7,3 @@ userInput = 'Ronaldo';
 if (typeof userInput === 'string') {
   userName = userInput;
 }
-
-export {};

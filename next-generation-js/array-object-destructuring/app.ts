@@ -19,5 +19,3 @@ console.log(hobbies, hobby1, hobby2);
 
 const { name, age } = person;
 console.log(name);
-
-export {};

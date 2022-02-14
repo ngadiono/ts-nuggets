@@ -6,5 +6,3 @@ const add = (...numbers: number[]) => {
 
 const addedNumbers = add(5, 6, 7.4, 10);
 console.log(addedNumbers);
-
-export {};

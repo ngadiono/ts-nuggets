@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Department = /** @class */ (function () {
     function Department(id, name) {
         this.id = id;
@@ -23,4 +22,5 @@ var accounting = new Department('d1', 'Accounting');
 accounting.describe();
 accounting.addEmployee('Rooney');
 accounting.name = 'Halland';
+// accounting.employees[2] = 'Anna'; // Error
 //# sourceMappingURL=app.js.map

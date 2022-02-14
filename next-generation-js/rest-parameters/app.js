@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var add = function () {
     var numbers = [];
     for (var _i = 0; _i < arguments.length; _i++) {

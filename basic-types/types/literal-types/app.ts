@@ -16,5 +16,3 @@ console.log(combinedStringAges);
 
 const combinedNames = combine('Ron', 'Aldo', 'as-text');
 console.log(combinedNames);
-
-export {};

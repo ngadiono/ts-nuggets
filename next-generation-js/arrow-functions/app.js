@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var add = function (a, b) { return a + b; };
 var printOutput = function (output) { return console.log(output); };
 var button = document.querySelector('button');

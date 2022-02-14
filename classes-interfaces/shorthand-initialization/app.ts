@@ -25,5 +25,3 @@ accounting.addEmployee('Rooney');
 
 accounting.name = 'Halland';
 // accounting.employees[2] = 'Anna'; // Error
-
-export {};

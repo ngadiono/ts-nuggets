@@ -12,5 +12,3 @@ const printResult = true;
 
 const result = add(number1, number2, printResult);
 console.log(result);
-
-export {};

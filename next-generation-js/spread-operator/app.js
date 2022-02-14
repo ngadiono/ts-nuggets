@@ -19,7 +19,6 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-Object.defineProperty(exports, "__esModule", { value: true });
 var hobbies = ['Sports', 'Cooking'];
 var activeHobbies = __spreadArray(['Hiking'], hobbies, true);
 console.log(activeHobbies);
