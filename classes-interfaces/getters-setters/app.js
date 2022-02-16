@@ -52,10 +52,34 @@ var AccountingDepartment = /** @class */ (function (_super) {
     function AccountingDepartment(id, reports) {
         var _this = _super.call(this, id, 'Accounting') || this;
         _this.reports = reports;
+        _this.lastReport = reports[0];
         return _this;
     }
+    Object.defineProperty(AccountingDepartment.prototype, "mostRecentReport", {
+        get: function () {
+            if (this.lastReport) {
+                return this.lastReport;
+            }
+            throw new Error('No report found.');
+        },
+        set: function (value) {
+            if (!value) {
+                throw new Error('Please pass in a valid value!');
+            }
+            this.addReport(value);
+        },
+        enumerable: false,
+        configurable: true
+    });
+    AccountingDepartment.prototype.addEmployee = function (name) {
+        if (name === 'Max') {
+            return;
+        }
+        this.employees.push(name);
+    };
     AccountingDepartment.prototype.addReport = function (text) {
         this.reports.push(text);
+        this.lastReport = text;
     };
     AccountingDepartment.prototype.printReports = function () {
         console.log(this.reports);
@@ -71,8 +95,13 @@ it.name = 'NEW NAME';
 it.printEmployeeInformation();
 console.log(it);
 var accounting = new AccountingDepartment('d2', []);
+accounting.mostRecentReport = 'Year End Report';
 accounting.addReport('Something went wrong...');
+console.log(accounting.mostRecentReport);
+accounting.addEmployee('Max');
+accounting.addEmployee('Manu');
 accounting.printReports();
+accounting.printEmployeeInformation();
 // const accountingCopy = { name: 'DUMMY', describe: accounting.describe };
 // accountingCopy.describe();
 //# sourceMappingURL=app.js.map
